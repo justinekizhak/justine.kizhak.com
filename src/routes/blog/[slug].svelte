@@ -27,7 +27,6 @@
 		all elements inside .content
 	*/
 	.content :global(h2) {
-		font-size: 1.4em;
 		font-weight: 500;
 	}
 
@@ -45,11 +44,12 @@
 	}
 
 	.content :global(ul) {
-		line-height: 1.5;
+		margin-top: 16px;
+		margin-bottom: 16px;
 	}
 
 	.content :global(li) {
-		margin: 0 0 0.5em 0;
+		margin: 0;
 	}
 </style>
 
@@ -57,8 +57,8 @@
 	<title>{post.title}</title>
 </svelte:head>
 
-<h1>{post.title}</h1>
+	<span class="text-xl block pb-4">{post.title}</span>
 
-<div class='content'>
-	{@html post.html}
-</div>
+	<div class='content  text-base'>
+		{@html post.html}
+	</div>
