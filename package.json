@@ -1,0 +1,66 @@
+{
+  "name": "sapper-tailwind-template",
+  "description": "A template for Sapper with TailwindCSS",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build --legacy",
+    "export": "sapper export --legacy",
+    "start": "node __sapper__/build",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "test": "run-p --race dev cy:run"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git+https://gitlab.com/justinekizhak/sapper-tailwind-template.git"
+  },
+  "keywords": [
+    "Sapper",
+    "Svelte",
+    "starter",
+    "PostCSS",
+    "TailwindCss"
+  ],
+  "author": "justinekizhak",
+  "license": "UNLICENSED",
+  "bugs": {
+      "url": "https://gitlab.com/justinekizhak/sapper-tailwind-template/issues"
+  },
+  "homepage": "https://gitlab.com/justinekizhak/sapper-tailwind-template#readme",
+  "browserslist": [
+    "last 3 version"
+  ],
+  "dependencies": {
+    "compression": "^1.7.1",
+    "polka": "^0.5.0",
+    "sirv": "^0.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/runtime": "^7.0.0",
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "postcss-import": "^12.0.1",
+    "postcss-url": "^8.0.0",
+    "postcss": "^7.0.17",
+    "purgecss-from-svelte": "^2.0.2",
+    "rollup-plugin-babel": "^4.0.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-svelte": "^5.1.0",
+    "rollup-plugin-terser": "^5.1.1",
+    "rollup": "^1.20.3",
+    "sapper": "^0.27.0",
+    "sirv-cli": "^0.4.4",
+    "svelte-preprocess": "^3.0.2",
+    "svelte": "^3.9.1",
+    "tailwindcss": "^1.1.2"
+  }
+}
