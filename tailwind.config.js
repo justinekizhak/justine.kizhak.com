@@ -1,5 +1,10 @@
 module.exports = {
-    theme: {},
-    variants: {},
-    plugins: [],
-  }
+  theme: {
+    fontFamily: {
+      display: ['"Jost*"'],
+    },
+    extend: {}
+  },
+  variants: {},
+  plugins: []
+}
