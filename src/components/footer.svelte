@@ -1,21 +1,16 @@
 <style>
-    .footer-container {
-        display: flex;
-        width: 100vw;
-        justify-content: center;
+    .bottom-4 {
+        bottom: 1rem;
     }
-    footer {
-        height: 56px;
-        width: 640px;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        padding-left: 24px;
-        background-color: aquamarine;
+    .w-160 {
+        width: 40rem;
     }
 </style>
 
-<div class="footer-container">
-    <footer class="">
-        Copyright © 2019 Justine Kizhakkinedath
-    </footer>
+<div class="flex w-screen fixed bottom-4 w-screen justify-center">
+    <div class="w-160 bg-grey-4 p-12 py-3">
+        <footer class="text-base text-white">
+            Copyright © 2019 Justine Kizhakkinedath
+        </footer>
+    </div>
 </div>

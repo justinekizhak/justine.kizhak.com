@@ -4,18 +4,19 @@
 </script>
 
 <style>
-	main {
-		@apply font-display;
-	}
-	.main-contents {
-		margin-top: 112px;
+	.mw-1920 {
+		max-width: 1920px
 	}
 </style>
 
 <main>
-	<Nav/>
-	<div class="main-contents">
-		<slot></slot>
+	<div class="font-display">
+		<Nav/>
+		<div class="mw-1920 mx-auto">
+			<div class="mx-12 h-screen ">
+				<slot></slot>
+			</div>
+		</div>
+		<Footer/>
 	</div>
-	<Footer/>
 </main>
