@@ -4,16 +4,13 @@
 </script>
 
 <style>
-	.mw-1920 {
-		max-width: 1920px
-	}
 </style>
 
 <main>
 	<div class="font-display">
 		<Nav/>
-		<div class="mw-1920 mx-auto">
-			<div class="mx-12 h-screen ">
+		<div class="w-screen">
+			<div class="mx-12 md:mx-auto mw-1280 md:px-32">
 				<slot></slot>
 			</div>
 		</div>
