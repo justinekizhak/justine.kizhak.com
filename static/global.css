@@ -11911,6 +11911,10 @@ video {
   margin-bottom: 7rem;
 }
 
+* {
+  outline: 1px solid red;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

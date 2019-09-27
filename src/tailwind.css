@@ -40,3 +40,7 @@
 .mb-28 {
     margin-bottom: 7rem;
 }
+
+* {
+    outline: 1px solid red;
+}
