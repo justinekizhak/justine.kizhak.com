@@ -14,5 +14,9 @@ describe('Home | Justine kizhakkinedath', () => {
 	it('has footer', () => {
 		cy.get('footer')
 	});
+
+	it('has hero bg', () => {
+		cy.get('[data-cy=hero-bg]')
+	})
 	
 });

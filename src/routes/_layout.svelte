@@ -1,6 +1,7 @@
 <script>
 	import Nav from '../components/Nav.svelte';
 	import Footer from '../components/footer.svelte';
+	import HeroPattern from "../components/hero-pattern.svelte";
 </script>
 
 <style>
@@ -11,7 +12,9 @@
 	<main>
 		<div class="mx-12 md:mx-auto mw-1280 md:px-32">
 			<slot></slot>
+		<HeroPattern/>
 		</div>
 	</main>
 	<Footer/>
+
 </div>

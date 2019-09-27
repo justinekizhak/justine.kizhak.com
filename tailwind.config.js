@@ -3,6 +3,9 @@ module.exports = {
     fontFamily: {
       display: ['"Jost*"'],
     },
+    zIndex: {
+      '-1': '-1',
+    },
     extend: {
       spacing: {
         '72': '18rem',
