@@ -54,11 +54,15 @@
 </style>
 
 <svelte:head>
-	<title>{post.title}</title>
+	<title>{post.title} | Justine Kizhakkinedath</title>
 </svelte:head>
 
+<div class="flex justify-center">
+<div class=" mw-640">
 	<span class="text-xl block pb-4">{post.title}</span>
 
-	<div class='content  text-base'>
+	<div class='content text-base'>
 		{@html post.html}
 	</div>
+  </div>
+</div>

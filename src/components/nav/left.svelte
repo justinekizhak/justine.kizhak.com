@@ -1,4 +1,4 @@
-<a class="py-3 pl-6" href='.'>
+<a class="py-3 px-6" href='.'>
     <div class="">
         <svg class="h-6" viewBox="0 0 154 19" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path

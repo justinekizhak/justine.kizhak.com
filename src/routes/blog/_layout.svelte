@@ -1,17 +1,7 @@
 <style>
-    .content-container {
-        display: flex;
-        width: 100vw;
-        justify-content: center;
-        margin-top: 112px;
-    }
-    .content {
-        width: 640px;
-    }
 </style>
 
-<div class="content-container">
-    <div class="content py-4">
-        <slot></slot>
-    </div>
-</div>
+
+<div class="p-12 md:mx-auto mw-1280 md:px-32">
+    <slot></slot>
+	</div>

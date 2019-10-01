@@ -1,20 +1,16 @@
 <script>
 	import Nav from '../components/Nav.svelte';
 	import Footer from '../components/footer.svelte';
-	import HeroPattern from "../components/hero-pattern.svelte";
 </script>
 
 <style>
 </style>
 
-<div class="font-display">
-	<Nav/>
+<div class="font-display min-h-screen justify-between flex flex-col">
+	<Nav></Nav>
 	<main>
-		<div class="mx-12 md:mx-auto mw-1280 md:px-32">
-			<slot></slot>
-		<HeroPattern/>
-		</div>
+		<slot></slot>
 	</main>
-	<Footer/>
+	<Footer></Footer>
 
 </div>

@@ -14,7 +14,7 @@
 </style>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>Blog | Justine kizhakkinedath</title>
 </svelte:head>
 
 <span class="block text-2xl mb-4">Recent posts</span>

@@ -10,6 +10,10 @@
     max-width: 1280px;
 }
 
+.mw-640 {
+    max-width: 640px;
+}
+
 .right-12 {
     right: 48px;
 }
@@ -43,4 +47,9 @@
 
 * {
     outline: 1px solid red;
+}
+
+
+.height-remaining {
+		height: calc(100vh - 49px);
 }
