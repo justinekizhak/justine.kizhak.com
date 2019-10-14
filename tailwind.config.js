@@ -17,6 +17,9 @@ module.exports = {
                 '-4': '-4',
                 '-5': '-5',
             },
+            colors: {
+                theme: "#B562E7",
+            },
         },
         variants: {},
         plugins: []

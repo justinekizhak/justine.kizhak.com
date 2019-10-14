@@ -9,7 +9,7 @@
 <div class="font-display min-h-screen justify-between flex flex-col">
 	<Nav></Nav>
 	<main>
-		<slot></slot>
+      <slot></slot>
 	</main>
 	<Footer></Footer>
 
