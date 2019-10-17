@@ -8,8 +8,10 @@
 
 <div class="font-display min-h-screen justify-between flex flex-col">
 	<Nav></Nav>
-	<main>
+	<main class="flex justify-center">
+    <div class="block relative w-1280">
       <slot></slot>
+    </div>
 	</main>
 	<Footer></Footer>
 

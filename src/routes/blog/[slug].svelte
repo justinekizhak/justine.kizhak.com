@@ -59,7 +59,11 @@
 
 <div class="flex justify-center">
 <div class=" mw-640">
-	<span class="text-xl block pb-4">{post.title}</span>
+  <div class="pb-4">
+    <span class="block text-xl">{post.title}</span>
+    <span class="block text-gray-600 py-2">Justine kizhakkinedath</span>
+    <span class="block text-gray-700 pb-2">{post.date}</span>
+  </div>
 
 	<div class='content text-base'>
 		{@html post.html}

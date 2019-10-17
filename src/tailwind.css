@@ -10,8 +10,24 @@
     max-width: 1280px;
 }
 
+.w-1280 {
+    width: 1280px;
+}
+
 .mw-640 {
     max-width: 640px;
+}
+
+.w-640 {
+    width: 640px;
+}
+
+.w-200 {
+    width: 200px
+}
+
+.w-220 {
+    width: 220px
 }
 
 .right-12 {
@@ -37,6 +53,10 @@
     width: 512px;
 }
 
+.w-60 {
+    width: 15rem;
+}
+
 .bottom-28 {
     bottom: 7rem;
 }
@@ -52,4 +72,9 @@
 
 .height-remaining {
 		height: calc(100vh - 49px);
+}
+
+.border-t-b-600 {
+    @apply .border-t .border-b .border-gray-600;
+
 }
