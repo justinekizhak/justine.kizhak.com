@@ -10,6 +10,9 @@ import getPreprocessor from "svelte-preprocess";
 import postcss from "rollup-plugin-postcss";
 import PurgeSvelte from "purgecss-from-svelte";
 import path from "path";
+import marked from 'marked';
+
+
 const mode = process.env.NODE_ENV;
 const dev = mode === "development";
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;
@@ -53,6 +56,16 @@ const preprocess = getPreprocessor({
       plugins: postcssPlugins() // Don't need purgecss because Svelte handle unused css for you.
     }
   }
+});
+
+const markdown = () => ({
+	  transform (md, id) {
+		    if (!/\.md$/.test(id)) return null;
+		    const data = marked(md);
+		    return {
+			      code: `export default ${JSON.stringify(data.toString())};`
+		    };
+	  }
 });
 
 export default {
@@ -128,7 +141,8 @@ export default {
       postcss({
         plugins: postcssPlugins(!dev),
         extract: path.resolve(__dirname, "./static/global.css")
-      })
+      }),
+        markdown()
     ],
     external: Object.keys(pkg.dependencies).concat(
       require("module").builtinModules ||

@@ -17,14 +17,19 @@
 	<title>Blog | Justine kizhakkinedath</title>
 </svelte:head>
 
-<span class="block text-2xl mb-4">Recent posts</span>
+<span class="block text-2xl ">Blog</span>
 
-<ul>
-	{#each posts as post}
-		<!-- we're using the non-standard `rel=prefetch` attribute to
-				tell Sapper to load the data for the page as soon as
-				the user hovers over the link or taps it, instead of
-				waiting for the 'click' event -->
-		<li><a rel='prefetch' href='blog/{post.slug}'>{post.title}</a></li>
-	{/each}
-</ul>
+<div class="">
+  {#each posts as post, index}
+    {#if index}
+      <hr class="border-gray-600" />
+    {/if}
+    <div class="my-4">
+      <h2 class="text-xl text-gray-900 mb-2">
+        <a rel='prefetch' href='blog/{post.slug}'>{post.title}</a>
+      </h2>
+      <p class="my-2 text-gray-800">{post.excerpt}</p>
+        <span class="text-gray-600">— {post.printDate}</span>
+    </div>
+  {/each}
+</div>
