@@ -7,6 +7,7 @@
 </script>
 
 <script>
+  import CodeBlock from '../../components/code-block.svelte';
 	export let posts;
 </script>
 
@@ -17,19 +18,21 @@
 	<title>Blog | Justine kizhakkinedath</title>
 </svelte:head>
 
-<span class="block text-2xl ">Blog</span>
+<h1 class="block ">Blog</h1>
 
 <div class="">
   {#each posts as post, index}
     {#if index}
-      <hr class="border-gray-600" />
+      <hr/>
     {/if}
-    <div class="my-4">
-      <h2 class="text-xl text-gray-900 mb-2">
+    <div class="my-8">
+      <h2 class="text-gray-900 mb-4">
         <a rel='prefetch' href='blog/{post.slug}'>{post.title}</a>
       </h2>
-      <p class="my-2 text-gray-800">{post.excerpt}</p>
+      <p class="my-4 text-gray-800">{post.excerpt}</p>
         <span class="text-gray-600">— {post.printDate}</span>
     </div>
   {/each}
 </div>
+
+<!-- <CodeBlock/> -->

@@ -14,6 +14,7 @@
 </script>
 
 <script>
+  import Bio from '../../components/bio.svelte';
 	export let post;
 </script>
 
@@ -25,13 +26,17 @@
 </svelte:head>
 
 <div class="">
-<div class="">
-  <span class="block text-xl">{post.title}</span>
-  <span class="block text-gray-600 py-2">Justine kizhakkinedath</span>
+<div class="mb-8">
+  <h1 class="block">{post.title}</h1>
   <span class="block text-gray-700 pb-2">{post.printDate} ~ {post.printReadingTime}</span>
 </div>
 
-<article class="text-base">
+<hr>
+
+<article class="text-base relative">
   {@html post.html}
 </article>
+<hr />
+  <Bio />
+
 </div>

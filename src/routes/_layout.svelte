@@ -6,7 +6,7 @@
 <style>
 </style>
 
-<div class="font-display min-h-screen justify-between flex flex-col">
+<div class="font-display min-h-screen justify-between flex flex-col overflow-x-hidden">
 	<Nav></Nav>
 	<main class="flex justify-center">
     <div class="block relative w-1280">

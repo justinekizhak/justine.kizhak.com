@@ -146,6 +146,19 @@ Et fugiat ad nisi amet magna labore do cillum fugiat occaecat cillum Lorem proid
 
 <script src="https://gitlab.com/snippets/1904985.js"></script>
 
+```html
+  <div class="md:flex">
+  <div class="md:flex-shrink-0">
+  <img class="rounded-lg md:w-56" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80" alt="Woman paying for a purchase">
+  </div>
+  <div class="mt-4 md:mt-0 md:ml-6">
+  <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">Marketing</div>
+  <a href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Finding customers for your new business</a>
+  <p class="mt-2 text-gray-600">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+  </div>
+  </div>
+```
+
 Ex amet id ex aliquip id do laborum excepteur exercitation elit sint commodo occaecat nostrud est. Nostrud pariatur esse veniam laborum non sint magna sit laboris minim in id. Aliqua pariatur pariatur excepteur adipisicing irure culpa consequat commodo et ex id ad.
 
 [[Top]](#top)
@@ -162,6 +175,6 @@ Sint ea anim ipsum ad commodo cupidatat do **exercitation** incididunt et minim 
 
 Incididunt in culpa cupidatat mollit cillum qui proident sit. In cillum aliquip incididunt voluptate magna amet cupidatat cillum pariatur sint aliqua est _enim **anim** voluptate_. Magna aliquip proident incididunt id duis pariatur eiusmod incididunt commodo culpa dolore sit. Culpa do nostrud elit ad exercitation anim pariatur non minim nisi **adipisicing sunt _officia_**. Do deserunt magna mollit Lorem commodo ipsum do cupidatat mollit enim ut elit veniam ea voluptate.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/PCp2iXA1uLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/PCp2iXA1uLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Reprehenderit non eu quis in ad elit esse qui aute id [incididunt](#) dolore cillum. Esse laboris consequat dolor anim exercitation tempor aliqua deserunt velit magna laboris. Culpa culpa minim duis amet mollit do quis amet commodo nulla irure.

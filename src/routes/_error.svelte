@@ -6,35 +6,19 @@
 </script>
 
 <style>
-	h1, p {
-		@apply mx-auto my-0;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
 </style>
 
 <svelte:head>
-	<title>{status}</title>
+	<title>{status} | Justine kizhakkinedath</title>
 </svelte:head>
 
-<h1>{status}</h1>
+<div class="m-24">
+  <h1 class="text-4xl mb-2">{status}</h1>
 
-<p>{error.message}</p>
+  <p class="mb-8">{error.message}</p>
 
-{#if dev && error.stack}
+  {#if dev && error.stack}
 	<pre>{error.stack}</pre>
-{/if}
+  {/if}
+
+</div>

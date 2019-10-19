@@ -17,7 +17,7 @@
     </slot>
   </div>
   <div class="flex justify-end mb-4">
-    <a class="h-8 w-24 rounded-full bg-theme text-white leading-loose text-center" rel=prefetch href="{link}">Read more</a>
+    <a class="button-pill h-8 w-24 rounded-full bg-theme text-white leading-loose text-center" rel=prefetch href="{link}">Read more</a>
   </div>
 </div>
 
@@ -36,6 +36,6 @@
     </slot>
   </div>
   <div class="flex justify-end mb-4">
-    <a class="h-8 w-24 rounded-full bg-theme text-white leading-loose text-center" rel=prefetch href="{link}">Read more</a>
+    <a class="button-pill h-8 w-24 rounded-full bg-theme text-white leading-loose text-center" rel=prefetch href="{link}">Read more</a>
   </div>
 </div>

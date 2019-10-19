@@ -3,7 +3,9 @@ import polka from 'polka';
 import compression from 'compression';
 import * as sapper from '@sapper/server';
 
-import './tailwind.css'
+import './tailwind.css';
+import './custom-classes.css';
+import './custom-elements.css';
 
 const { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV === 'development';
