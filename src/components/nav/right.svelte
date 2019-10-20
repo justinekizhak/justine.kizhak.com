@@ -1,6 +1,6 @@
 <script>
-  import MenuIcon from "./icon/menu-v3.svelte";
-  import SearchIcon from "./icon/search-v1.svelte";
+  import MenuIcon from "./icons/menu-v3.svelte";
+  import SearchIcon from "./icons/search-v1.svelte";
 </script>
 
 <div class="md:hidden flex mr-8">
