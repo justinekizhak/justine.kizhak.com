@@ -7,7 +7,6 @@
 </script>
 
 <script>
-  import CodeBlock from '../../components/code-block.svelte';
 	export let posts;
 </script>
 
@@ -34,5 +33,3 @@
     </div>
   {/each}
 </div>
-
-<!-- <CodeBlock/> -->
