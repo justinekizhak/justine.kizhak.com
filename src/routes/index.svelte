@@ -1,7 +1,7 @@
 <script>
 	import HeroPattern from "../components/hero-pattern.svelte";
-  import ArticleGroup from "../components/landing-page/article-group.svelte";
-  import ContactGroup from "../components/landing-page/contact-group.svelte";
+  import LatestContent from "../components/landing-page/latest-content.svelte";
+ import ContactGroup from "../components/landing-page/contact-group.svelte";
 </script>
 
 
@@ -23,9 +23,7 @@
 <div class="px-12">
   <h3 class="py-2 border-t-b-600 md:w-72">Welcome to my site</h3>
 
-  <ArticleGroup/>
-  <ArticleGroup/>
-
+  <LatestContent></LatestContent>
 
 </div>
 
