@@ -6,6 +6,7 @@ const matter = require('gray-matter');
 const formatDate = require('date-fns/format');
 const readingTime = require('reading-time');
 
+
 const createDOMPurify = require('dompurify');
 const { JSDOM } = require('jsdom');
 const window = (new JSDOM('')).window;
@@ -15,7 +16,7 @@ const DOMPurify = createDOMPurify(window);
 require('prismjs/components/prism-jsx.min');
 
 const cwd = process.cwd();
-const POSTS_DIR = path.join(cwd, 'content/blog');
+const POSTS_DIR = path.join(cwd, 'content/project');
 const EXCERPT_SEPARATOR = '<!-- more -->';
 const renderer = new marked.Renderer();
 const linkRenderer = renderer.link;

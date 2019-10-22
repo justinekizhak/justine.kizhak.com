@@ -1,6 +1,6 @@
 <script context="module">
  export async function preload() {
-		 const posts = await this.fetch(`blog.json`).then(r => r.json());
+		 const posts = await this.fetch(`project.json`).then(r => r.json());
 		 return { posts };
  }
 </script>
@@ -13,10 +13,10 @@
 </style>
 
 <svelte:head>
-	<title>Blog | Justine kizhakkinedath</title>
+	<title>Project | Justine kizhakkinedath</title>
 </svelte:head>
 
-<h1 class="block ">Blog</h1>
+<h1 class="block ">Project</h1>
 
 <div class="">
   {#each posts as post, index}
@@ -25,7 +25,7 @@
     {/if}
     <div class="my-8">
       <h2 class="text-gray-900 mb-4">
-        <a rel='prefetch' href='blog/{post.slug}'>{post.title}</a>
+        <a rel='prefetch' href='project/{post.slug}'>{post.title}</a>
       </h2>
       <p class="my-4 text-gray-800">{post.excerpt}</p>
         <span class="text-gray-600">— {post.printDate}</span>
