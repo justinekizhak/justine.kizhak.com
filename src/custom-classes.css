@@ -76,5 +76,5 @@
 
 .button-pill:hover {
     @apply bg-white ;
-    box-shadow: 0 0 2pt 1pt var(--theme-color);
+    box-shadow: 0 0 4pt 0pt var(--theme-color);
 }
