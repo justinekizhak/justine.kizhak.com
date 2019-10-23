@@ -57395,6 +57395,8 @@ video {
           box-shadow: 0 0 4pt 0pt var(--theme-color);
 }
 
+/* purgecss start ignore */
+
 h1 {
   font-size: 3rem;
   margin-top: 1rem;
@@ -57528,7 +57530,6 @@ p a:hover {
 /* } */
 
 table {
-  display: block;
   width: 100%;
   overflow: auto;
   border-collapse: collapse;
@@ -57542,3 +57543,5 @@ th, td {
 tr {
   border-top: 1px solid #c6cbd1;
 }
+
+/* purgecss end ignore */

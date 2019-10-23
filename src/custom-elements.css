@@ -1,3 +1,5 @@
+/* purgecss start ignore */
+
 h1 {
     @apply .text-5xl my-4;
 }
@@ -94,7 +96,6 @@ p a:hover {
 /* } */
 
 table {
-    display: block;
     width: 100%;
     overflow: auto;
     border-collapse: collapse;
@@ -109,3 +110,5 @@ tr {
     border-top: 1px solid #c6cbd1;
 
 }
+
+/* purgecss end ignore */
