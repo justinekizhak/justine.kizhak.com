@@ -29,7 +29,7 @@ p {
 }
 
 ol, ul {
-    margin-left: 2rem;
+    margin-left: 0;
 }
 ol {
     list-style: decimal;
@@ -49,6 +49,8 @@ hr {
 
 blockquote {
     @apply .border-l-4 .border-gray-500 .text-xl .italic .text-gray-700 .px-8;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 
