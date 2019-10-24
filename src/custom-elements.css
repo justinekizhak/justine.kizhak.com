@@ -30,6 +30,7 @@ p {
 
 ol, ul {
     margin-left: 0;
+    padding-left: 2rem;
 }
 ol {
     list-style: decimal;
