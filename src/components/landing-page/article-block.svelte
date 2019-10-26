@@ -6,7 +6,7 @@
 
 <div class="md:hidden w-full mb-8">
   <span class="text-lg">{name}</span>
-  <div class="bg-gray-100 my-4 md:pr-4 h-40 overflow-hidden">
+  <div class="my-4 md:pr-4">
     <slot>
       Risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Dolor sit amet, consectetur adipiscing elit duis tristique sollicitudin nibh sit amet!
       Risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Dolor sit amet, consectetur adipiscing elit duis tristique sollicitudin nibh sit amet!
@@ -25,7 +25,7 @@
 
 <div class="hidden md:block w-60">
   <span class="text-lg">{name}</span>
-  <div class="bg-gray-100 my-4 md:pr-4 h-40 overflow-hidden">
+  <div class="my-4 md:pr-4">
     <slot>
       Risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Dolor sit amet, consectetur adipiscing elit duis tristique sollicitudin nibh sit amet!
       Risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Dolor sit amet, consectetur adipiscing elit duis tristique sollicitudin nibh sit amet!

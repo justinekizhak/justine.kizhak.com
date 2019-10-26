@@ -1,6 +1,6 @@
 <style>
  #logo-box {
-     @apply text-white;
+     @apply text-gray-100;
  }
  #first-name {
      @apply text-main;
@@ -21,7 +21,7 @@
 
 </style>
 
-<a class="my-4 ml-8" href='.'>
+<a class="my-4 ml-8 shadow-md" href='.'>
 
     <svg id="logo-container" class="hover:shadow-main" width="176" height="32" viewBox="0 0 176 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 

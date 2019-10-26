@@ -5,10 +5,13 @@
 </script>
 
 <div class="md:hidden flex mr-8 my-4">
-  <button class="mr-4"><SearchIcon/></button>
-  <button><MenuIcon/></button>
+    <button class="mx-4 shadow-md"><SearchIcon/></button>
+    <button class="shadow-md"><MenuIcon/></button>
 </div>
 
-<div class="hidden md:flex flex mr-8 my-4">
-    <Link url="project">My Projects</Link><Link url="blog">My Blogs</Link><Link url="about-me">About Me</Link><Link url="contact-me">Contact Me</Link>
+<div class="hidden md:flex mr-8 my-4">
+    <button class="mx-4 shadow-md"><SearchIcon/></button>
+    <div class="flex shadow-md">
+        <Link url="project">My Projects</Link><Link url="blog">My Blogs</Link><Link url="about-me">About Me</Link><Link url="contact-me">Contact Me</Link>
+    </div>
 </div>
