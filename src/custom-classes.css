@@ -70,11 +70,8 @@
 
 }
 
-.button-pill {
-    @apply .no-underline;
-}
-
-.button-pill:hover {
-    @apply bg-white ;
-    box-shadow: 0 0 4pt 0pt var(--theme-color);
+@variants hover {
+    .shadow-main {
+        box-shadow: 0 0 4pt 0pt var(--main-color);
+    }
 }

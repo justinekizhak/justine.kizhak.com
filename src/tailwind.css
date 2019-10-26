@@ -2,8 +2,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@import "./base.css";
+@import "./custom-classes.css";
+
 :root {
-    --theme-color: #B562E7;
+    --main-color: #B562E7;
 }
 
 

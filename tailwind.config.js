@@ -18,10 +18,15 @@ module.exports = {
                 '-5': '-5',
             },
             colors: {
-                theme: "#B562E7",
+                main: "#B562E7",
             },
+            fill: theme => ({
+                ...theme('colors'),
+            })
         },
-        variants: {},
+        variants: {
+            fill: ['responsive', 'hover', 'focus']
+        },
         plugins: []
     }
 }

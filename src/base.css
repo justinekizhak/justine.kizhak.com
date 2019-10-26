@@ -78,18 +78,18 @@ a {
 }
 
 a:hover {
-    @apply text-theme;
+    @apply text-main;
 }
 
 p a {
     text-decoration: none;
-    box-shadow: inset 0 -0.12em 0 var(--theme-color);
+    box-shadow: inset 0 -0.12em 0 var(--main-color);
     -webkit-transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
     transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
 }
 
 p a:hover {
-    box-shadow: inset 0 -1.5em 0 var(--theme-color);
+    box-shadow: inset 0 -1.5em 0 var(--main-color);
     color: #FFF;
 }
 
