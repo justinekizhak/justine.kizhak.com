@@ -10,5 +10,5 @@
 </div>
 
 <div class="hidden md:flex flex mr-8 my-4">
-    <Link>My Projects</Link><Link>My Blogs</Link><Link>About Me</Link><Link>Contact Me</Link>
+    <Link url="project">My Projects</Link><Link url="blog">My Blogs</Link><Link url="about-me">About Me</Link><Link url="contact-me">Contact Me</Link>
 </div>
