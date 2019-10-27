@@ -7,6 +7,7 @@
  .image {
      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://source.unsplash.com/daily);
      background-size: cover;
+     background-position: center;
  }
 </style>
 
@@ -24,9 +25,6 @@
 
 <div class="px-12">
     <h3 class="py-2 border-t-b-600 md:w-72">Welcome to my site</h3>
-
-    <script src="https://gist.github.com/justinekizhak/bc549af02845c175d489a6be00818f24.js"></script>
-
   <LatestContent></LatestContent>
 
 </div>
