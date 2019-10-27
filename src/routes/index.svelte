@@ -27,10 +27,17 @@
     </div>
 </div>
 
+<div class="h-screen w-screen xl:flex xl:justify-around absolute top-0">
+    <div class="w-screen h-screen xl:w-1280 flex flex-col justify-end p-12">
+        <p class="flex justify-end my-0">
+            <a class="text-white" href="https://unsplash.com" alt="Go to Unsplash.com" target="_blank">Unsplash image of the day</a>
+        </p>
+    </div>
+</div>
 
 <div class="xl:hidden">
     <div class="">
-        <div class="mx-12">
+        <div class="mx-12 my-8">
             <h3 class="py-2 border-t-b-600 md:w-72">Welcome to my site</h3>
             <LatestContent></LatestContent>
         </div>
@@ -40,7 +47,7 @@
 
 <div class="hidden xl:flex xl:justify-around">
     <div class="block w-1280">
-        <div class="mx-12">
+        <div class="mx-12 my-8">
             <h3 class="py-2 border-t-b-600 md:w-72">Welcome to my site</h3>
             <LatestContent></LatestContent>
         </div>

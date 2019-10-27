@@ -93,11 +93,6 @@ p a:hover {
     color: #FFF;
 }
 
-
-/* * { */
-/*     outline: 1px solid red; */
-/* } */
-
 table {
     width: 100%;
     overflow: auto;
@@ -111,7 +106,6 @@ th, td {
 
 tr {
     border-top: 1px solid #c6cbd1;
-
 }
 
 /* purgecss end ignore */

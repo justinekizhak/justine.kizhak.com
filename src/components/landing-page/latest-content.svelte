@@ -11,6 +11,11 @@
  import ArticleGroup from "./article-group.svelte";
 </script>
 
+<div class="my-12">
+    <h4 class="font-light">I'm a Computer engineer</h4>
+    <h5 class="font-light">I design and create websites, Python apps and stuffs.</h5>
+</div>
+
 <ArticleGroup title="Read my latest blog" link="blog" >
     <ArticleBlock name="New blog 1" link="#"></ArticleBlock>
     <ArticleBlock name="New blog 2" link="#"></ArticleBlock>
