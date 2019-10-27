@@ -17,8 +17,11 @@
 
 <div class="h-screen flex flex-col justify-center p-8 image">
   <div class="p-4 text-white">
-    <h1>Hello</h1>
-    <h2>My name is Justine kizhakkinedath</h2>
+    <h1 class="font-bold">Hello</h1>
+    <h2>
+        <div class="inline font-thin">My name is </div>
+        <div class="inline font-normal">Justine kizhakkinedath</div>
+    </h2>
   </div>
 </div>
 
