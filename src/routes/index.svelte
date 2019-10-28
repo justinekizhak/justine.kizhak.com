@@ -27,7 +27,7 @@
     </div>
 </div>
 
-<div class="h-screen w-screen xl:flex xl:justify-around absolute top-0">
+<div class="h-screen w-full xl:flex xl:justify-around absolute top-0">
     <div class="w-screen h-screen xl:w-1280 flex flex-col justify-end p-12">
         <p class="flex justify-end my-0">
             <a class="text-white" href="https://unsplash.com" alt="Go to Unsplash.com" target="_blank">Unsplash image of the day</a>
