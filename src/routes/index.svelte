@@ -5,7 +5,7 @@
 
 <style>
  .image {
-     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://source.unsplash.com/daily);
+     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://source.unsplash.com/collection/381622/daily);
      background-size: cover;
      background-position: center;
  }
