@@ -1,11 +1,8 @@
 ---
 title: Markdown example
 date: "2019-10-20T14:19:55"
+excerpt: Every blog starts with a single post. This is yours. Make it great.
 ---
-
-Every blog starts with a single post. This is yours. Make it great.
-
-<!-- more -->
 
 An h1 header
 ============
