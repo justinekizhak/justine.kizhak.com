@@ -1,11 +1,11 @@
 <script>
- import LatestContent from "../components/landing-page/latest-content.svelte";
- import ContactGroup from "../components/landing-page/contact-group.svelte";
+ import LatestContent from "./_landing-page-components/latest-content.svelte";
+ import ContactGroup from "./_landing-page-components/contact-group.svelte";
 </script>
 
 <style>
  .image {
-     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://source.unsplash.com/collection/381622/daily);
+     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/bg.jpg);
      background-size: cover;
      background-position: center;
  }
@@ -34,6 +34,7 @@
         </p>
     </div>
 </div>
+
 
 <div class="xl:hidden">
     <div class="">

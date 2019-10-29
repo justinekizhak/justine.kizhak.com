@@ -1,7 +1,10 @@
 <script context="module">
+ console.log("content.svelte");
  export function preload({ params, query }) {
-		 return this.fetch(`blog.json`).then(r => r.json()).then(posts => {
-			   return { posts };
+     console.log("1");
+		 return this.fetch(`../../routes/blog.json`).then(r => r.json()).then(blogs => {
+         console.log("2");
+			   return { blogs };
 		 });
  }
 </script>
@@ -9,6 +12,7 @@
 <script>
  import ArticleBlock from "./article-block.svelte";
  import ArticleGroup from "./article-group.svelte";
+ export let blogs;
 </script>
 
 <div class="my-12">
