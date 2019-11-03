@@ -10,7 +10,7 @@ const readingTime = require('reading-time');
 require('prismjs/components/prism-jsx.min');
 
 const cwd = process.cwd();
-const POSTS_DIR = path.join(cwd, 'content/blog');
+const POSTS_DIR = path.join(cwd, 'content/project');
 
 const renderer = new marked.Renderer();
 

@@ -15,8 +15,8 @@
 	<title>Home | Justine Kizhakkinedath</title>
 </svelte:head>
 
-<div class="h-screen w-screen image xl:flex xl:justify-around">
-    <div class="w-screen h-screen xl:w-1280 flex flex-col justify-around p-12">
+<div class="h-screen w-full image xl:flex xl:justify-around">
+    <div class="w-full h-screen xl:w-1280 flex flex-col justify-around p-12">
         <div class="text-white">
             <h1 class="font-bold">Hello</h1>
             <h2>
@@ -28,7 +28,7 @@
 </div>
 
 <div class="h-screen w-full xl:flex xl:justify-around absolute top-0">
-    <div class="w-screen h-screen xl:w-1280 flex flex-col justify-end p-12">
+    <div class="w-full h-screen xl:w-1280 flex flex-col justify-end p-12">
         <p class="flex justify-end my-0">
             <a class="text-white" href="https://unsplash.com" alt="Go to Unsplash.com" target="_blank">Unsplash image of the day</a>
         </p>

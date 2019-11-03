@@ -9,7 +9,7 @@
 <div class="font-display min-h-screen justify-between flex flex-col overflow-x-hidden bg-gray-200">
 	<Nav></Nav>
 	<main class="flex justify-center">
-    <div>
+    <div class="w-screen">
       <slot></slot>
     </div>
 	</main>

@@ -36,7 +36,7 @@
 <article class="text-base relative">
   {@html post.html}
 </article>
-<hr />
-  <Bio />
+<!-- <hr /> -->
+<!-- <Bio /> -->
 
 </div>
