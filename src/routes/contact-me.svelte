@@ -24,7 +24,7 @@
               success-message="Thanks for contacting me" error-message="Oops! Your form has errors.">
             <p>
                 <label>Your Name
-                    <input type="text" name="name" "/>
+                    <input type="text" name="name"/>
                 </label>
             </p>
             <p>
