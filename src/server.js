@@ -13,9 +13,11 @@ const dev = NODE_ENV === 'development';
 
 const collection_id = '437316';
 
-downloadRandomFromCollection(collection_id, "static/bg.jpg", () => {
-    console.log("Done");
-});
+if(!dev) {
+    downloadRandomFromCollection(collection_id, "static/bg.jpg", () => {
+        console.log("Done");
+    });
+}
 
 polka() // You can also use Express
   .use(
