@@ -4,16 +4,18 @@
 
 <style>
  input, textarea {
-     @apply w-full h-8 my-4 bg-gray-400;
+     @apply w-full h-8 my-4 bg-gray-400 p-4;
  }
  textarea {
      @apply h-40;
+ }
+ input::placeholder, textarea::placeholder {
+     @apply text-gray-800;
  }
 </style>
 
 <svelte:head>
 	<title>Contact | Justine kizhakkinedath</title>
-  <script src="https://kwes.io/js/kwes.js"></script>
 </svelte:head>
 
 <ContentLayout>
@@ -24,17 +26,18 @@
 
             <p>
                 <label>Your Name
-                    <input type="text" name="name"/>
+                    <input type="text" name="name" required maxlength="255"
+                           placeholder="John Doe" />
                 </label>
             </p>
             <p>
                 <label>Your Email
-                    <input type="email" name="email" />
+                    <input type="email" name="email" required placeholder="john@doe.com" />
                 </label>
             </p>
             <p>
                 <label>Message
-                    <textarea name="message"></textarea>
+                    <textarea name="message" required placeholder="Hi there" ></textarea>
                 </label>
             </p>
             <div class="bg-main w-32 h-8 hover:shadow-main text-white">
