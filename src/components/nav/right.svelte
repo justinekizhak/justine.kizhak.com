@@ -2,11 +2,19 @@
   import MenuIcon from "./icons/menu-v3.svelte";
   import SearchIcon from "./icons/search-v1.svelte";
  import Link from "./Link.svelte";
+ import { menuOpen } from "../stores.js";
+
+    let open = false
+
+    function handleClick(){
+        $menuOpen = !$menuOpen
+    }
+
 </script>
 
 <div class="md:hidden flex mr-8 my-4">
     <!-- <button class="mx-4 shadow-md"><SearchIcon/></button> -->
-    <button class="shadow-md"><MenuIcon/></button>
+    <button class="shadow-md" on:click={handleClick} ><MenuIcon/></button>
 </div>
 
 <div class="hidden md:flex mr-8 my-4">

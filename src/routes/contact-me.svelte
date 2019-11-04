@@ -3,15 +3,6 @@
 </script>
 
 <style>
- input, textarea {
-     @apply w-full h-8 my-4 bg-gray-400 p-4;
- }
- textarea {
-     @apply h-40;
- }
- input::placeholder, textarea::placeholder {
-     @apply text-gray-800;
- }
 </style>
 
 <svelte:head>
