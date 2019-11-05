@@ -7,6 +7,7 @@
 
 <script>
 	export let posts;
+ import { fadeIn } from "../../components/pageFade.js";
 </script>
 
 <style>
@@ -16,9 +17,9 @@
 	<title>Blog | Justine kizhakkinedath</title>
 </svelte:head>
 
-<h1 class="block ">Blog</h1>
 
-<div class="">
+<div in:fadeIn class="">
+    <h1 class="block ">Blog</h1>
   {#each posts as post, index}
     {#if index}
       <hr/>

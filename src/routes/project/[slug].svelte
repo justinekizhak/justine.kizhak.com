@@ -14,7 +14,7 @@
 </script>
 
 <script>
-  import Bio from '../../components/bio.svelte';
+  import { fadeIn } from "../../components/pageFade.js";
 	export let post;
 </script>
 
@@ -25,7 +25,7 @@
 	<title>{post.title} | Justine Kizhakkinedath</title>
 </svelte:head>
 
-<div class="">
+<div in:fadeIn class="">
 <div class="mb-8">
   <h1 class="block">{post.title}</h1>
   <span class="block text-gray-700 pb-2">{post.printDate} ~ {post.printReadingTime}</span>
@@ -36,7 +36,4 @@
 <article class="text-base relative">
   {@html post.html}
 </article>
-<!-- <hr /> -->
-<!-- <Bio /> -->
-
 </div>

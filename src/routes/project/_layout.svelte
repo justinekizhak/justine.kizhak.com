@@ -1,13 +1,7 @@
-<style>
-</style>
+<script>
+ import ContentLayout from '../_content_layout.svelte';
+</script>
 
-
-<div class="md:hidden m-12 mt-16 pt-4">
+<ContentLayout>
     <slot></slot>
-	</div>
-
-<div class="hidden md:flex justify-center mb-12 mt-16 pt-4">
-  <div class="w-640">
-    <slot></slot>
-  </div>
-	</div>
+</ContentLayout>
