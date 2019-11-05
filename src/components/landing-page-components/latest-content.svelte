@@ -33,18 +33,6 @@
 <!-- </ArticleGroup> -->
 
 <style>
- .body-link-container{
-     @apply w-40 h-8 w-40 h-8 text-center justify-center bg-gray-100 text-white bg-main my-4;
- }
- .body-link-container:hover{
-     @apply text-main;
- }
- .body-link-special {
-     @apply block no-underline leading-loose ;
- }
- .body-link-special:hover {
-     @apply text-white;
- }
 </style>
 
 
