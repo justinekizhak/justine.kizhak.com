@@ -117,7 +117,7 @@ textarea {
 }
 
 input::placeholder, textarea::placeholder {
-    @apply text-gray-800;
+    @apply text-gray-600;
 }
 
 /* purgecss end ignore */
