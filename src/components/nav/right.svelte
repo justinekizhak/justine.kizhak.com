@@ -1,5 +1,5 @@
 <script>
-  import MenuIcon from "./icons/menu-v3.svelte";
+  import MenuIcon from "./icons/menu-v4.svelte";
   import SearchIcon from "./icons/search-v1.svelte";
  import Link from "./Link.svelte";
  import { menuOpen } from "../stores.js";
