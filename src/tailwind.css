@@ -4,6 +4,7 @@
 
 @import "./base.css";
 @import "./custom-classes.css";
+@import "./animate.css";
 
 :root {
     --main-color: #B562E7;

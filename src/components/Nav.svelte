@@ -1,14 +1,11 @@
 <script>
-	import NavLeft from './nav/left.svelte';
-	import NavRight from './nav/right.svelte';
+ import NavLeft from './nav/left.svelte';
+ import NavRight from './nav/right.svelte';
  import { menuOpen } from "./stores.js";
+ import { fade } from 'svelte/transition';
 </script>
 
 <style>
- .active {
-     @apply block;
- }
-
  a {
      @apply my-4 mx-8 text-right no-underline;
  }
@@ -18,18 +15,22 @@
 </style>
 
 <nav class="z-10 fixed w-full top-0">
-		<div class="mx-auto mw-1280 flex justify-between px-auto
-                {$menuOpen ? 'bg-gray-100' : ''} md:bg-transparent">
+    {#if $menuOpen }
+        <div transition:fade class="-z-5 fixed w-full h-16 bg-gray-100 md:bg-transparent"></div>
+    {/if}
+    <div class="mx-auto mw-1280 flex justify-between px-auto">
 			<NavLeft/>
 			<NavRight/>
 		</div>
-    <div class=" hidden {$menuOpen ? 'active' : ''}">
-        <div class="md:hidden flex flex-col bg-gray-100" >
-            <a href="project">My Projects</a>
-            <a href="blog">My Blogs</a>
-            <a href="about-me">About Me</a>
-            <a href="contact-me">Contact Me</a>
+    {#if $menuOpen }
+        <div transition:fade class="md:hidden">
+            <div class="flex flex-col bg-gray-100" >
+                <a class="animated slideInRight" href="project">My Projects</a>
+                <a class="animated slideInRight" href="blog">My Blogs</a>
+                <a class="animated slideInRight" href="about-me">About Me</a>
+                <a class="animated slideInRight" href="contact-me">Contact Me</a>
+            </div>
+            <div class="fixed w-full h-full bg-semi-black"></div>
         </div>
-        <div class="fixed w-full h-full bg-semi-black md:hidden"></div>
-    </div>
+    {/if}
 </nav>
