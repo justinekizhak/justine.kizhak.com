@@ -1,7 +1,7 @@
 <script>
  import { fadeIn } from "../components/pageFade.js";
- import LatestContent from "./_landing-page-components/latest-content.svelte";
- import ContactGroup from "./_landing-page-components/contact-group.svelte";
+ import LatestContent from "../components/landing-page-components/latest-content.svelte";
+ import ContactGroup from "../components/landing-page-components/contact-group.svelte";
 </script>
 
 <style>
