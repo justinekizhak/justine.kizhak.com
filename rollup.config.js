@@ -40,7 +40,7 @@ const postcssPlugins = (purgecss = false) => {
 
             // Specify the file extensions to include when scanning for
             // class names.
-            extensions: ["svelte", "html"]
+              extensions: ["svelte", "html", "css"]
           }
         ],
         // Whitelist selectors to stop Purgecss from removing them from your CSS.
