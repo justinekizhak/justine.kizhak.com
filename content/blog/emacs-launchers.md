@@ -4,38 +4,17 @@ date: "2019-10-22T20:59:19"
 excerpt: Launchers for Emacs, Emacs daemon and Emacs client
 ---
 
-[![Built with Spacemacs](https://img.shields.io/badge/built_with-Spacemacs-blueviolet?style=flat-square)](http://spacemacs.org)
-<a href="https://www.instagram.com/alka1e"><img src="https://i.imgur.com/G9YJUZI.png" alt="Instagram" align="right"></a>
-<a href="https://twitter.com/alka1e"><img src="http://i.imgur.com/tXSoThF.png" alt="Twitter" align="right"></a>
-<a href="https://www.facebook.com/justinekizhak"><img src="http://i.imgur.com/P3YfQoD.png" alt="Facebook" align="right"></a>
-<br>
-
-- - -
-
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://opensource.org/licenses/MIT) ![MacOS only](https://img.shields.io/badge/platform-MacOS_only-blue?style=flat-square)
-
 - - -
 
 # Emacs launchers
 
 - - -
 
-## Table of contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Full Documentation](#full-documentation)
-  - [FAQ's](#faqs)
-- [License](#license)
-
 ## Introduction
 
 **MacOS only**
 
 Launchers for Emacs in standard mode, Emacs in daemon mode and Emacs as client.
-
-**[Back to top](#table-of-contents)**
 
 ## Features
 
@@ -53,15 +32,11 @@ commands.
 
 - Spacemacs icon
 
-**[Back to top](#table-of-contents)**
-
 ## Getting Started
 
 Download and copy all three `.app` files into your `Application` directory.
 
 You can launch using double-clicking or using spotlight.
-
-**[Back to top](#table-of-contents)**
 
 ## Full Documentation
 
@@ -139,28 +114,8 @@ alias in my terminal. What are my options?
     launchctl load ~/Library/LaunchAgents/homebrew.mxcl.emacs*.plist
     ```
 
-Visit [website].
-
-Read [CHANGELOG], [CODE OF CONDUCT], [CONTRIBUTING] guide.
-
-[CHANGELOG]: CHANGELOG.md
-[CODE OF CONDUCT]: CODE_OF_CONDUCT.md
-[CONTRIBUTING]: CONTRIBUTING.md
-
-[website]: (https://justine.kizhak.com/projects/emacs-launchers)
-
 ## License
 
-Licensed under the terms of [MIT LICENSE].
-
-[MIT LICENSE]: LICENSE.md
-
-**[Back to top](#table-of-contents)**
-
-- - -
-
-[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/fo-sho.svg)](https://forthebadge.com)
+Licensed under the terms of MIT LICENSE.
 
 - - -
