@@ -7,13 +7,15 @@
 
 <svelte:head>
 	<title>Contact | Justine kizhakkinedath</title>
+  <script src="https://kwes.io/js/kwes.js"></script>
 </svelte:head>
 
 <ContentLayout>
     <h1>Contact Me</h1>
 
-        <form action="https://getform.io/f/0375a567-86fc-481c-a31f-73a89cd16c46" method="POST">
-
+    <div class="kwes-form">
+        <form method="POST" action="https://kwes.io/api/foreign/forms/4VDCLEyoh7ceilsMlHl6"
+              success-message="Thanks for contacting me" error-message="Oops! Your form has errors.">
 
             <p>
                 <label>Your Name
@@ -35,5 +37,6 @@
                 <button class="w-32 h-8" type="submit">Send</button>
             </div>
         </form>
+    </div>
 
 </ContentLayout>
