@@ -7,7 +7,7 @@
 
 <style>
  a {
-     @apply my-4 mx-8 text-right no-underline;
+     @apply my-4 mx-8 text-right no-underline w-32;
  }
  .bg-semi-black {
      background-color: rgba(0,0,0,0.80);
@@ -24,7 +24,7 @@
 		</div>
     {#if $menuOpen }
     <div transition:fade="{{ duration:1000 }}" class="md:hidden">
-        <div class="flex flex-col bg-gray-100 " >
+        <div class="flex flex-col items-end bg-gray-100 " >
             <a transition:fly="{{ x:200, duration:1000 }}" href="project">My Projects</a>
             <a transition:fly="{{ x:200, duration:1000 }}" href="blog">My Blogs</a>
             <a transition:fly="{{ x:200, duration:1000 }}" href="about-me">About Me</a>
