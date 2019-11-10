@@ -8,7 +8,6 @@
 
 <svelte:head>
 	<title>Contact | Justine kizhakkinedath</title>
-  <script src="https://kwes.io/js/kwes.js"></script>
 </svelte:head>
 
 <ContentLayout>
