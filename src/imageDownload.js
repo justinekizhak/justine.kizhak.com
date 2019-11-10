@@ -73,3 +73,16 @@ export function downloadRandomFromCollection (collection_id, file_location, call
         });
         });
 };
+
+export default function imageDownloadUnsplash () {
+    return {
+        name: 'image-download-unsplash',
+        buildStart(){
+            console.log("Start downloading image from Unsplash");
+            const collection_id = '437316';
+            downloadRandomFromCollection(collection_id, "static/bg.jpg", () => {
+                console.log("Done downloading image from Unsplash");
+            });
+        }
+    };
+}

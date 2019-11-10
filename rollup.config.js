@@ -11,6 +11,7 @@ import postcss from "rollup-plugin-postcss";
 import PurgeSvelte from "purgecss-from-svelte";
 import path from "path";
 import marked from 'marked';
+import imageDownloadUnsplash from "./src/imageDownload.js";
 
 
 const mode = process.env.NODE_ENV;
@@ -143,7 +144,8 @@ export default {
         plugins: postcssPlugins(!dev),
         extract: path.resolve(__dirname, "./static/global.css")
       }),
-        markdown()
+        markdown(),
+        imageDownloadUnsplash(),
     ],
     external: Object.keys(pkg.dependencies).concat(
       require("module").builtinModules ||
