@@ -29,3 +29,5 @@ fields:
       format: markdown
   label: Excerpt
   description: Excerpt/short summary
+pages:
+- content/project/justine-kizhak-com.md
