@@ -1,6 +1,6 @@
 ---
 title: Initial commit
-date: 2019-06-09T14:08:00+05:30
+date: 2019-11-10T14:08:00+05:30
 excerpt: Hello World
 
 ---
