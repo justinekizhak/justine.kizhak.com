@@ -6,7 +6,7 @@
 
 <style>
  .image {
-     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/bg.jpg);
+     background: linear-gradient(to right, rgba(0, 0, 0, 0.84),rgba(0, 0, 0, 0)),url(/bg.jpg);
      background-size: cover;
      background-position: center;
  }
