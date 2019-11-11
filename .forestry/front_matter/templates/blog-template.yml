@@ -1,6 +1,6 @@
 ---
-label: Blog template
-hide_body: true
+label: Content template
+hide_body: false
 display_field: title
 fields:
 - name: title
@@ -29,3 +29,5 @@ fields:
       format: markdown
   label: Excerpt
   description: Excerpt/short summary
+pages:
+- content/project/justine-kizhak-com.md
